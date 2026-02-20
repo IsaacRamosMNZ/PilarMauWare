@@ -204,22 +204,6 @@ MENSAGEM:
   ✓ Mínimo 10 caracteres
 ```
 
-### Sem Alert()
-- Erros aparecem **abaixo do campo**
-- Sucesso em **box verde**
-- Campos com erro em **borda vermelha**
-
----
-
-## 🐛 TROUBLESHOOTING
-
-| Problema | Solução |
-|----------|---------|
-| Formulário não funciona | Abrir F12 console, verificar erros |
-| Responsividade ruim | Ir em Device Toolbar (Ctrl+Shift+M) |
-| CSS não carrega | Verificar caminho: `css/style.css` |
-| JS não funciona | Verificar caminho: `js/script.js` |
-
 ---
 
 ## 📊 ESTATÍSTICAS
@@ -282,4 +266,5 @@ git push origin main
 **Desenvolvido com 🛡️ para proteção de quem você ama.**
 
 © 2026 PilarMauWare - Todos os direitos reservados.
+
 
