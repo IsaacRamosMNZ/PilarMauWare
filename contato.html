@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com PilarMauWare">
+    <title>Contato - PilarMauWare</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- HEADER COM NAVEGAÇÃO -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <span class="logo-icon">🛡️</span>
+                    <span class="logo-text">PilarMauWare</span>
+                </div>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="produto.html" class="nav-link">Produto</a></li>
+                    <li><a href="contato.html" class="nav-link active">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="main-content">
+        <!-- SEÇÃO HERO -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Entre em Contato</h1>
+                    <p class="hero-subtitle">Estamos aqui para responder suas dúvidas e demnadas</p>
+                    <p class="hero-description">
+                        Tem perguntas sobre o PilarMauWare? Quer agendar uma demonstração? 
+                        Gostaria de saber mais sobre como proteger seus filhos? 
+                        Preencha o formulário abaixo e entraremos em contato em breve.
+                    </p>
+                </div>
+                <div class="hero-image">
+                    <div class="contact-icons">
+                        <div class="icon-item">📧</div>
+                        <div class="icon-item">📱</div>
+                        <div class="icon-item">💬</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE FORMULÁRIO -->
+        <section class="contact-content">
+            <div class="container-centered">
+                <div class="contact-wrapper">
+                    <!-- FORMULÁRIO -->
+                    <div class="contact-form-section">
+                        <h2 class="section-title">Envie sua Mensagem</h2>
+                        
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nome Completo *</label>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    placeholder="Seu nome" 
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    placeholder="seu@email.com" 
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Telefone *</label>
+                                <input 
+                                    type="tel" 
+                                    id="phone" 
+                                    placeholder="(11) 98765-4321" 
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Assunto</label>
+                                <select id="subject">
+                                    <option value="">Selecione um assunto</option>
+                                    <option value="duvida">Dúvida sobre o produto</option>
+                                    <option value="compra">Finalizar Compra</option>
+                                    <option value="demo">Solicitar Demonstração</option>
+                                    <option value="problema">Problema técnico</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="message">Mensagem *</label>
+                                <textarea 
+                                    id="message" 
+                                    placeholder="Digite sua mensagem aqui..." 
+                                    rows="6"
+                                    required
+                                ></textarea>
+                            </div>
+
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="newsletter">
+                                <label for="newsletter">Gostaria de receber atualizações por email</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Mensagem</button>
+                        </form>
+                    </div>
+
+                    <!-- INFORMAÇÕES DE CONTATO -->
+                    <div class="contact-info-section">
+                        <h2 class="section-title">Informações de Contato</h2>
+                        
+                        <div class="info-box">
+                            <h3>📧 Email</h3>
+                            <p><a href="mailto:contato@pilarmauware.com">contato@pilarmauware.com</a></p>
+                            <p><a href="mailto:vendas@pilarmauware.com">vendas@pilarmauware.com</a></p>
+                        </div>
+
+                        <div class="info-box">
+                            <h3>📱 Telefone</h3>
+                            <p><a href="tel:+551130000000">(11) 3000-0000</a></p>
+                            <p><a href="tel:+551199999999">(11) 99999-9999</a> (WhatsApp)</p>
+                        </div>
+
+                        <div class="info-box">
+                            <h3>📍 Localização</h3>
+                            <p>Av. Paulista, 1000<br>São Paulo - SP 01310-100<br>Brasil</p>
+                        </div>
+
+                        <div class="info-box">
+                            <h3>🕐 Horário de Atendimento</h3>
+                            <p>Segunda a Sexta: 9h - 18h<br>Sábado: 9h - 14h<br>Domingo: Fechado</p>
+                        </div>
+
+                        <div class="info-box social">
+                            <h3>Siga-nos</h3>
+                            <div class="social-links">
+                                <a href="#" title="Facebook">f</a>
+                                <a href="#" title="Instagram">📷</a>
+                                <a href="#" title="LinkedIn">in</a>
+                                <a href="#" title="Twitter">𝕏</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE PERGUNTAS FREQUENTES -->
+        <section class="faq-section">
+            <div class="container-centered">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>Qual é o prazo de entrega?</h3>
+                        <p>Entregamos em até 5 dias úteis para São Paulo e região metropolitana. Demais regiões do Brasil em até 10 dias úteis.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>O produto tem garantia?</h3>
+                        <p>Sim! Oferecemos garantia de 2 anos contra defeitos de fabricação. Peças danificadas por uso indevido não são cobertas.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Como funciona a análise de segurança?</h3>
+                        <p>O PilarMauWare usa inteligência artificial para analisar em tempo real conteúdo, contatos e comportamentos suspeitos nos dispositivos conectados.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>É compatível com todos os celulares?</h3>
+                        <p>Sim, funciona com qualquer smartphone iOS ou Android, independentemente da marca (Samsung, Apple, Xiaomi, etc).</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Meus dados são seguros?</h3>
+                        <p>Absolutamente. Utilizamos criptografia AES-256 e estamos em conformidade total com LGPD e GDPR.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Posso testar antes de comprar?</h3>
+                        <p>Claro! Oferecemos uma demonstração gratuita. Solicite através do formulário de contato acima.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container-centered">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>PilarMauWare</h4>
+                    <p>Proteção inteligente para quem você ama</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produto.html">Produto</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>Email: contato@pilarmauware.com</p>
+                    <p>Tel: (11) 3000-0000</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PilarMauWare. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
